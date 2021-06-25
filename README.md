@@ -42,6 +42,8 @@ $ npm install
 $ npm start
 ```
 
+<br/>
+
 #### Baas - Back-end as a service
 On firebase you will need: 
 - Create a project
@@ -49,13 +51,13 @@ On firebase you will need:
 - Create a realtime database
 - Set rules
 - Add new app -> Web
-- Set environment variables on project source 
+- Create environment file on project source(.env.local)
+- Set environment variables
 
 <br/>
 
-```json
 Realtime Database Rules
-
+```json
 {
   "rules": {
     "rooms": {
